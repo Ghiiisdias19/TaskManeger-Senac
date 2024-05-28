@@ -5,7 +5,13 @@
     <title>Página de Registro</title>
     <script>
         function validateForm() {
-            return true; 
+            var email = document.getElementById("email").value;
+            var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailPattern.test(email)) {
+                alert("Formato de email inválido");
+                return false;
+            }
+            return true;
         }
     </script>
 </head>
