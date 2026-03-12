@@ -1,7 +1,7 @@
 # TaskManeger-Senac
 
 ## Status do Projeto: <br> 
-### Concluído 
+### Concluido 
 
 ## Tecnologias Utilizadas no Projeto: <br>
 ### -> Java <br>
